@@ -1,7 +1,7 @@
 module.exports = {
   plugins: {
     'postcss-cssnext': {},
-    'postcss-px-to-viewport': {
+    'postcss-px-to-viewport-8-plugin': {
       viewportWidth: 375, // (Number) The width of the viewport.
       // viewportHeight: 667, // (Number) The height of the viewport.
       unitPrecision: 3, // (Number) The decimal numbers to allow the REM units to grow to.

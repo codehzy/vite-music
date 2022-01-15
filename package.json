@@ -4,6 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "build:dev": "vue-tsc --noEmit && vite build --mode development",
+    "build:pro": "vue-tsc --noEmit && vite build --mode production",
+    "build:beta": "vue-tsc --noEmit && vite build --mode beta",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,8 +18,11 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
+    "postcss": "^8.4.5",
     "postcss-cssnext": "^3.1.1",
+    "postcss-loader": "^6.2.1",
     "postcss-px-to-viewport": "^1.1.1",
+    "postcss-px-to-viewport-8-plugin": "^1.1.3",
     "sass": "^1.48.0",
     "sass-loader": "^12.4.0",
     "typescript": "^4.4.4",
