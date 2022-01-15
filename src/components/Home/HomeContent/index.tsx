@@ -8,9 +8,11 @@ export const HomeContent = defineComponent({
 
     return () => {
       return (
-        <div>
-          我是Home页面的内容区
-          <p>store中name:{mainStore.name}</p>
+        <div class="home-content-main">
+          <div>我是Home页面的内容区</div>
+          <div class="home-content-name-title">
+            store中name:{mainStore.name}
+          </div>
         </div>
       )
     }
